@@ -55,10 +55,32 @@ java TrieBenchmark
 
 The benchmark results were visualized using Python's `matplotlib` and `pandas` libraries to better understand the Trie performance trends.
 
-### Graphs Included:
-- **Insert Time vs Dataset Size:** Shows how insertion time increases with the number of words.
-- **Search Time vs Dataset Size:** Illustrates how search time behaves as dataset size grows.
-- **Average Search Time per Word vs Dataset Size:** Demonstrates the near constant-time search performance of the Trie.
+## Visualizations
+
+The following graphs illustrate the performance of the Trie across various dataset sizes:
+
+### Insert Time vs Dataset Size
+Shows how the time taken to insert words increases with dataset size.
+
+![Insert Time vs Dataset Size](results/insert_time_vs_dataset_size.png)
+
+---
+
+### Search Time vs Dataset Size
+Illustrates how the total search time changes with different dataset sizes.
+
+![Search Time vs Dataset Size](results/search_time_vs_dataset_size.png)
+
+---
+
+### Avg Search Time per Word vs Dataset Size
+Demonstrates the near-constant time performance of Trie searches.
+
+![Avg Search Time per Word vs Dataset Size](results/avg_time_per_word_vs_dataset_size.png)
+
+---
+
+> All graphs are auto-generated using `matplotlib` and `pandas` from the benchmarking results. See the [Plotting Graphs](#plotting-graphs) section above for steps to regenerate them.
 
 ### How to Generate Graphs:
 1. Make sure Python 3 is installed on your system.
